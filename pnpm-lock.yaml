@@ -2,10 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@mistjs/eslint-config-vue': ^0.0.2
+  '@type-challenges/utils': ^0.1.1
   eslint: ^8.18.0
   typescript: ^4.7.4
   vitepress: 1.0.0-alpha.4
   vue: ^3.2.37
+
+dependencies:
+  '@type-challenges/utils': 0.1.1
 
 devDependencies:
   '@mistjs/eslint-config-vue': 0.0.2_b5e7v2qnwxfo6hmiq56u52mz3e
@@ -296,6 +300,10 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: true
+
+  /@type-challenges/utils/0.1.1:
+    resolution: {integrity: sha512-A7ljYfBM+FLw+NDyuYvGBJiCEV9c0lPWEAdzfOAkb3JFqfLl0Iv/WhWMMARHiRKlmmiD1g8gz/507yVvHdQUYA==}
+    dev: false
 
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}

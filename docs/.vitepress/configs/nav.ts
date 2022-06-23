@@ -6,5 +6,14 @@ export default function nav(): NavItem[] {
       text: '首页',
       link: '/',
     },
+    {
+      text: '类型',
+      items: [
+        {
+          text: '类型挑战',
+          link: '/type-challenges/',
+        },
+      ],
+    },
   ]
 }
