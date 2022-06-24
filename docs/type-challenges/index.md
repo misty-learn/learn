@@ -6,7 +6,11 @@
 
 ## 入门级别
 
-1. Hello Word
+1. [Hello World](/type-challenges/hello-word)
+
+## 简单级别
+
+1. [实现Pick](/type-challenges/simple/pick)
 
 
 
