@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "lib": ["DOM", "ESNext"],
+        "strict": true,
+        "esModuleInterop": true,
+        "jsx": "preserve",
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "vite/client",
+            "vue/ref-macros",
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

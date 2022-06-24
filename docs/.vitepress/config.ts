@@ -16,6 +16,9 @@ export default defineConfig({
     },
   },
   lastUpdated: true,
+  vue: {
+    reactivityTransform: true,
+  },
   themeConfig: {
     nav: nav(),
     sidebar: sidebar(),
