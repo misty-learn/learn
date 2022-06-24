@@ -19,5 +19,9 @@ export default defineConfig({
   themeConfig: {
     nav: nav(),
     sidebar: sidebar(),
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present Yanyu',
+    },
   },
 })
