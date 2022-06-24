@@ -2,6 +2,8 @@
 
 :::tip 类型体操学习
 学习，挑战类型体操。
+
+base项目地址 [type-challenges](https://github.com/type-challenges/type-challenges)
 :::
 
 ## 入门级别
