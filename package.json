@@ -16,7 +16,8 @@
       "ignoreMissing": [
         "@types/react",
         "react",
-        "react-dom"
+        "react-dom",
+        "vite"
       ]
     }
   },
@@ -24,10 +25,12 @@
     "@mistjs/eslint-config-vue": "^0.0.2",
     "eslint": "^8.18.0",
     "typescript": "^4.7.4",
+    "unocss": "^0.39.3",
     "vitepress": "1.0.0-alpha.4",
     "vue": "^3.2.37"
   },
   "dependencies": {
-    "@type-challenges/utils": "^0.1.1"
+    "@type-challenges/utils": "^0.1.1",
+    "monaco-editor-core": "^0.33.0"
   }
 }

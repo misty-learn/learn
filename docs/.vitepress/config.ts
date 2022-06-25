@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import Unocss from 'unocss/vite'
+import { presetAttributify, presetIcons, presetTypography, presetUno } from 'unocss'
 import nav from './configs/nav'
 import sidebar from './configs/sidebar'
 
@@ -18,6 +20,21 @@ export default defineConfig({
   lastUpdated: true,
   vue: {
     reactivityTransform: true,
+  },
+  vite: {
+    plugins: [
+      Unocss({
+        presets: [
+          presetUno(),
+          presetAttributify(),
+          presetIcons(),
+          presetTypography(),
+        ],
+        theme: {
+          preflightBase: false,
+        },
+      }),
+    ],
   },
   themeConfig: {
     nav: nav(),
