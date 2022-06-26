@@ -13,11 +13,12 @@
         "strictNullChecks": true,
         "allowJs": true,
         "forceConsistentCasingInFileNames": true,
-        "types": [
-            "vite/client",
-            "vue/ref-macros",
-        ]
     },
+    "include": [
+        "docs/**/*.ts",
+        "docs/.vitepress/**/*.ts",
+        "docs/.vitepress/shims.d.ts",
+    ],
     "exclude": [
         "node_modules"
     ]

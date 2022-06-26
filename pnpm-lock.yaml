@@ -4,21 +4,23 @@ specifiers:
   '@mistjs/eslint-config-vue': ^0.0.2
   '@type-challenges/utils': ^0.1.1
   eslint: ^8.18.0
-  monaco-editor-core: ^0.33.0
+  monaco-editor: ^0.33.0
   typescript: ^4.7.4
   unocss: ^0.39.3
+  vite: ^2.9.12
   vitepress: 1.0.0-alpha.4
   vue: ^3.2.37
 
 dependencies:
   '@type-challenges/utils': 0.1.1
-  monaco-editor-core: 0.33.0
+  monaco-editor: 0.33.0
 
 devDependencies:
   '@mistjs/eslint-config-vue': 0.0.2_b5e7v2qnwxfo6hmiq56u52mz3e
   eslint: 8.18.0
   typescript: 4.7.4
-  unocss: 0.39.3
+  unocss: 0.39.3_vite@2.9.12
+  vite: 2.9.12
   vitepress: 1.0.0-alpha.4
   vue: 3.2.37
 
@@ -620,7 +622,7 @@ packages:
       '@unocss/core': 0.39.3
     dev: true
 
-  /@unocss/vite/0.39.3:
+  /@unocss/vite/0.39.3_vite@2.9.12:
     resolution: {integrity: sha512-JT21v6ZwLCHPGVfjoWsOdSkMhFNiW2robhQke33WLlRGyT5U4K1SWLxNk+XPDbFdP+WZdcVJi5W5yG8Mm27WBw==}
     peerDependencies:
       vite: ^2.9.0
@@ -635,6 +637,7 @@ packages:
       '@unocss/scope': 0.39.3
       '@unocss/transformer-directives': 0.39.3
       magic-string: 0.26.2
+      vite: 2.9.12
     dev: true
 
   /@vitejs/plugin-vue/2.3.3_vite@2.9.12+vue@3.2.37:
@@ -2397,8 +2400,8 @@ packages:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: true
 
-  /monaco-editor-core/0.33.0:
-    resolution: {integrity: sha512-Kzxak8jnMS8vI08DcseBuOfeQlcVPpGXO210D8M+QnaNR92s4IYzgUeiow/Hld9Gi5pGvjDbPsdUXkPewoTA5g==}
+  /monaco-editor/0.33.0:
+    resolution: {integrity: sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw==}
     dev: false
 
   /mrmime/1.0.1:
@@ -3046,7 +3049,7 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /unocss/0.39.3:
+  /unocss/0.39.3_vite@2.9.12:
     resolution: {integrity: sha512-+BZazovI1A+jlW0+GuSSABHQjBLpu2sQkLXriBTdZiPYZAqJJdiWHuQ6VPzF4Al5WM4VPpOgX5mUYWusJ813qw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3069,7 +3072,7 @@ packages:
       '@unocss/transformer-compile-class': 0.39.3
       '@unocss/transformer-directives': 0.39.3
       '@unocss/transformer-variant-group': 0.39.3
-      '@unocss/vite': 0.39.3
+      '@unocss/vite': 0.39.3_vite@2.9.12
     transitivePeerDependencies:
       - supports-color
       - vite
