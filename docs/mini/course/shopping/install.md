@@ -62,6 +62,8 @@ npm  i -g degit
 
 模板地址：[taro-vue3-starter](https://github.com/mistjs/taro-vue3-starter.git)
 
+这套模板中，已经帮我们配置好了一些项目中常用的工具不需要我们再手动配置了。
+
 我们通过degit去创建一个我们自己的项目。
 
 ```shell
@@ -77,3 +79,28 @@ degit mistjs/taro-vue3-starter shopping-mini
 源码地址：[taro-vue3-starter](https://git.28yanyu.cn/yanyu/taro-vue3-starter)
 
 :::
+
+
+## 安装依赖
+
+后续我们会使用yarn作为我们项目的包管理工具去开发。
+
+```shell
+# 安装依赖
+yarn
+# 启动项目
+yarn dev:weapp
+```
+
+我们打开微信小程序：
+
+1. 项目名称：shopping-mini（大家可以自定义）
+2. 目录：这里我们需要选到我们项目中编译出来的`dist`文件夹目录。
+3. AppId我们先生成一个测试号，进行测试。
+4. 我们复制测试号，修改我们现在项目中的appid为，我们生成的测试号。
+
+当我们看到如下：
+
+![img.png](./create-project.png)
+
+代表我们的项目创建成功了
