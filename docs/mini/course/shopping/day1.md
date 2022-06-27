@@ -11,21 +11,29 @@
 ```less
 // 主色配置
 @primary-color: #40AE36;
+@primary-color-active: #288723;
 // 主要文字颜色
 @text-color: #333;
 // 次要文字颜色
 @secondary-text-color: #999;
 
 .primary-bg-color{
-    background-color: @primary-color;
+  background-color: @primary-color;
+}
+.btn-primary{
+  background-color: @primary-color;
+}
+.btn-primary:active{
+  background-color:@primary-color-active;
 }
 
 .main-text-color{
-    color: @text-color;
+  color: @text-color;
 }
 
 .main-secondary-text-color{
-    color: @secondary-text-color;
+  color: @secondary-text-color;
 }
+
 
 ```
