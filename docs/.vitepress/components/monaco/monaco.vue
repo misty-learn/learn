@@ -4,6 +4,9 @@ import { nextTick, onBeforeUnmount, onMounted, shallowRef } from 'vue'
 import { loadMonacoEnv } from './env'
 import { loadTsLang } from './languages/ts'
 import { loadTheme } from './themes'
+const props = withDefaults(defineProps<{ value?: string }>(), {
+  value: '',
+})
 loadMonacoEnv()
 loadTheme()
 loadTsLang()
@@ -11,7 +14,7 @@ const containerRef = shallowRef<HTMLDivElement | null>()
 const currentModel = shallowRef<monaco.editor.ITextModel>
 (
   monaco.editor.createModel(
-    'import type {} from "@type-challenges/utils"',
+    props.value,
     'typescript',
     monaco.Uri.parse('file:///type.ts'),
   ),
