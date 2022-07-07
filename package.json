@@ -17,7 +17,7 @@
         "@types/react",
         "react",
         "react-dom",
-        "vite"
+        "@algolia/client-search"
       ]
     }
   },

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import * as monaco from 'monaco-editor'
+import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
 import { nextTick, onBeforeUnmount, onMounted, shallowRef } from 'vue'
 import { loadMonacoEnv } from './env'
 import { loadTsLang } from './languages/ts'
@@ -11,7 +11,7 @@ const containerRef = shallowRef<HTMLDivElement | null>()
 const currentModel = shallowRef<monaco.editor.ITextModel>
 (
   monaco.editor.createModel(
-    'import {} from "/type-challenges.ts"',
+    'import type {} from "@type-challenges/utils"',
     'typescript',
     monaco.Uri.parse('file:///type.ts'),
   ),

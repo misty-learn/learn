@@ -1,4 +1,4 @@
-import * as coder from 'monaco-editor'
+import * as coder from 'monaco-editor/esm/vs/editor/editor.api'
 import dark from './dark'
 import light from './light'
 

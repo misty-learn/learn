@@ -1,14 +1,20 @@
-import * as monaco from 'monaco-editor'
+import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
 
 export const loadTsLang = async() => {
   const data = await fetch('https://cdn.jsdelivr.net/npm/@type-challenges/utils@0.1.1/index.d.ts')
   const text = await data.text()
-  const path = 'file:///type-challenges.ts'
-  const uri = monaco.Uri.parse(path)
+  const path = '@type-challenges/utils'
   monaco.languages.typescript.typescriptDefaults.setCompilerOptions({
-    moduleResolution: 2,
-    module: monaco.languages.typescript.ModuleKind.ESNext,
+    ...monaco.languages.typescript.typescriptDefaults.getCompilerOptions(),
+    noUnusedLocals: false,
+    noUnusedParameters: false,
+    allowUnreachableCode: true,
+    allowUnusedLabels: true,
+    strict: true,
   })
-  monaco.editor.createModel(text, 'typescript', uri)
-  console.log(monaco.editor.getModels())
+  monaco.languages.typescript.typescriptDefaults.addExtraLib(`
+    declare module '${path}' {
+      ${text}
+    }
+  `)
 }
