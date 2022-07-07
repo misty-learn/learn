@@ -8,6 +8,7 @@ specifiers:
   typescript: ^4.7.4
   unocss: ^0.39.3
   vite: ^2.9.12
+  vite-plugin-monaco-editor: ^1.1.0
   vitepress: 1.0.0-alpha.4
   vue: ^3.2.37
 
@@ -21,6 +22,7 @@ devDependencies:
   typescript: 4.7.4
   unocss: 0.39.3_vite@2.9.13
   vite: 2.9.13
+  vite-plugin-monaco-editor: 1.1.0_monaco-editor@0.33.0
   vitepress: 1.0.0-alpha.4
   vue: 3.2.37
 
@@ -643,9 +645,6 @@ packages:
     resolution: {integrity: sha512-JT21v6ZwLCHPGVfjoWsOdSkMhFNiW2robhQke33WLlRGyT5U4K1SWLxNk+XPDbFdP+WZdcVJi5W5yG8Mm27WBw==}
     peerDependencies:
       vite: ^2.9.0
-    peerDependenciesMeta:
-      vite:
-        optional: true
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@unocss/config': 0.39.3
@@ -663,9 +662,6 @@ packages:
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
-    peerDependenciesMeta:
-      vite:
-        optional: true
     dependencies:
       vite: 2.9.13
       vue: 3.2.37
@@ -2419,7 +2415,6 @@ packages:
 
   /monaco-editor/0.33.0:
     resolution: {integrity: sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw==}
-    dev: false
 
   /mrmime/1.0.1:
     resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==}
@@ -3114,6 +3109,14 @@ packages:
     dependencies:
       spdx-correct: 3.1.1
       spdx-expression-parse: 3.0.1
+    dev: true
+
+  /vite-plugin-monaco-editor/1.1.0_monaco-editor@0.33.0:
+    resolution: {integrity: sha512-IvtUqZotrRoVqwT0PBBDIZPNraya3BxN/bfcNfnxZ5rkJiGcNtO5eAOWWSgT7zullIAEqQwxMU83yL9J5k7gww==}
+    peerDependencies:
+      monaco-editor: '>=0.33.0'
+    dependencies:
+      monaco-editor: 0.33.0
     dev: true
 
   /vite/2.9.13:

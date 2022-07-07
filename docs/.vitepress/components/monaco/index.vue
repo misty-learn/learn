@@ -6,7 +6,6 @@
 
 <script lang="ts" setup>
 import { defineAsyncComponent } from 'vue'
-
 const comp = defineAsyncComponent(() => import('./monaco.vue'))
 </script>
 
