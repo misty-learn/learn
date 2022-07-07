@@ -1,23 +1,13 @@
 {
+    "extends": "@mistjs/tsconfig-vue",
     "compilerOptions": {
-        "module": "ESNext",
-        "target": "ESNext",
-        "lib": ["DOM", "ESNext"],
-        "strict": true,
-        "esModuleInterop": true,
-        "jsx": "preserve",
-        "skipLibCheck": true,
         "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "noUnusedLocals": true,
-        "strictNullChecks": true,
-        "allowJs": true,
-        "forceConsistentCasingInFileNames": true,
+        "forceConsistentCasingInFileNames": true
     },
     "include": [
         "docs/**/*.ts",
         "docs/.vitepress/**/*.ts",
-        "docs/.vitepress/shims.d.ts",
+        "docs/.vitepress/shims.d.ts"
     ],
     "exclude": [
         "node_modules"

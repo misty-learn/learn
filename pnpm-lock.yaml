@@ -2,12 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@mistjs/eslint-config-vue': ^0.0.2
+  '@mistjs/tsconfig-vue': ^0.0.2
   '@type-challenges/utils': ^0.1.1
-  eslint: ^8.18.0
+  eslint: ^8.19.0
   monaco-editor: ^0.33.0
   typescript: ^4.7.4
   unocss: ^0.39.3
-  vite: ^2.9.12
+  vite: ^2.9.13
   vite-plugin-monaco-editor: ^1.1.0
   vitepress: 1.0.0-alpha.4
   vue: ^3.2.37
@@ -18,6 +19,7 @@ dependencies:
 
 devDependencies:
   '@mistjs/eslint-config-vue': 0.0.2_4x5o4skxv6sl53vpwefgt23khm
+  '@mistjs/tsconfig-vue': 0.0.2
   eslint: 8.19.0
   typescript: 4.7.4
   unocss: 0.39.3_vite@2.9.13
@@ -331,6 +333,16 @@ packages:
       - eslint-import-resolver-webpack
       - supports-color
       - typescript
+    dev: true
+
+  /@mistjs/tsconfig-vue/0.0.2:
+    resolution: {integrity: sha512-YD7OCdiKyh6RM0cwy2pQdd8Bn8a5CPPKyfse5++828tH6Ndbpg5TXkNuBzxlPjFcUJd9qIJ/wm7mrU13v96Yyg==}
+    dependencies:
+      '@mistjs/tsconfig': 1.0.0
+    dev: true
+
+  /@mistjs/tsconfig/1.0.0:
+    resolution: {integrity: sha512-1DKMzFHH12xeiGcRP35aXbTl1k7q8ajG0BjHnwbjdWGifCpWxH5xwSuVIsnsoGqfgMfbYP3USwTeSDtkpLpbpg==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -2507,7 +2519,7 @@ packages:
     dependencies:
       destr: 1.1.1
       node-fetch-native: 0.1.4
-      ufo: 0.8.4
+      ufo: 0.8.5
       undici: 5.6.0
     dev: true
 
@@ -3029,8 +3041,8 @@ packages:
     hasBin: true
     dev: true
 
-  /ufo/0.8.4:
-    resolution: {integrity: sha512-/+BmBDe8GvlB2nIflWasLLAInjYG0bC9HRnfEpNi4sw77J2AJNnEVnTDReVrehoh825+Q/evF3THXTAweyam2g==}
+  /ufo/0.8.5:
+    resolution: {integrity: sha512-e4+UtA5IRO+ha6hYklwj6r7BjiGMxS0O+UaSg9HbaTefg4kMkzj4tXzEBajRR+wkxf+golgAWKzLbytCUDMJAA==}
     dev: true
 
   /unbox-primitive/1.0.2:
