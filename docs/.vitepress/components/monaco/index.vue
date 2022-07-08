@@ -1,11 +1,13 @@
 <template>
   <ClientOnly>
-    <component :is="comp" :value="value" />
+    <component :is="comp" :value="value" v-bind="attrs" />
   </ClientOnly>
 </template>
 
 <script lang="ts" setup>
-import { defineAsyncComponent } from 'vue'
+import { defineAsyncComponent,useAttrs  } from 'vue'
+const attrs = useAttrs();
+
 defineProps<{
   value?: string
 }>()

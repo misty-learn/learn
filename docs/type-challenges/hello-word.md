@@ -40,4 +40,4 @@ type test = Expect<Equal<HelloWorld, string>>
 * 在下方编码实现：
 
 
-<MonacoEditor :value="helloWord"/>
+<MonacoEditor :value="helloWord" :filename="'helloWord'"/>
