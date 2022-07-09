@@ -5,7 +5,7 @@ title: 学习笔记
 titleTemplate: 学习笔记
 
 hero:
-  name: Mist
+  name: Misty-Learn
   text: 技术学习笔记
   tagline: 前端、后端、技术、学习
   actions:
