@@ -13,6 +13,7 @@ base项目地址 [type-challenges](https://github.com/type-challenges/type-chall
 ## 简单级别
 
 1. [实现Pick](/type-challenges/simple/pick)
+2. [实现Readonly](/type-challenges/simple/readonly)
 
 
 

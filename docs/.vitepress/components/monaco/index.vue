@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts" setup>
-import { defineAsyncComponent,useAttrs  } from 'vue'
-const attrs = useAttrs();
+import { defineAsyncComponent, useAttrs } from 'vue'
+const attrs = useAttrs()
 
 defineProps<{
   value?: string
