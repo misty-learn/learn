@@ -10,7 +10,8 @@
   },
   "keywords": [],
   "author": "aibayanyu",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "http://learn.28yanyu.cn",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
