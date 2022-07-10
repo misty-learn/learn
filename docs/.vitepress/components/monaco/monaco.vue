@@ -5,7 +5,7 @@ import { loadMonacoEnv } from './env'
 import { loadTsLang } from './languages/ts'
 import { loadTheme } from './themes'
 const props = withDefaults(
-  defineProps<{ value?: string; filename?: string }>(),
+  defineProps<{ value?: string; filename?: string;dir?: string }>(),
   {
     value: '',
   },
@@ -17,11 +17,11 @@ const containerRef = shallowRef<HTMLDivElement | null>()
 let uri
 
 if (props.filename) {
-  uri = monaco.Uri.parse(`file:///root/${props.filename}.ts`)
+  uri = monaco.Uri.parse(`file:///root/${props.dir ? `${props.dir}/` : ''}${props.filename}.ts`)
 }
 else {
   // 时间戳
-  uri = monaco.Uri.parse(`file:///root/${new Date().getTime()}.ts`)
+  uri = monaco.Uri.parse(`file:///root/${props.dir ? `${props.dir}/` : ''}${new Date().getTime()}.ts`)
 }
 const model = monaco.editor.getModel(uri)
 const currentModel = shallowRef<monaco.editor.ITextModel>()

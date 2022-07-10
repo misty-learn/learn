@@ -43,7 +43,7 @@ type result = TupleToObject<typeof tuple> // expected { tesla: 'tesla', 'model 3
 
 * 请在下方代码实现：
 
-<MonacoEditor :value="TupleToObject" filename="tuple-to-object"/>
+<MonacoEditor :value="TupleToObject" dir="simple" filename="tuple-to-object"/>
 
 
 

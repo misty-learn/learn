@@ -68,7 +68,7 @@ const todo: TodoPreview = {
 
 * 请在下方作答：
 
-<MonacoEditor :value="pick" :filename="'pick'"/>
+<MonacoEditor :value="pick" dir="simple" :filename="'pick'"/>
 
 
 :::details 查看解答

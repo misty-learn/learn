@@ -60,7 +60,7 @@ todo.description = "barFoo" // Error: cannot reassign a readonly property
 * 请在下面作答：
 
 
-<MonacoEditor :value="readonly" filename="readonly"/>
+<MonacoEditor :value="readonly" dir="simple" filename="readonly"/>
 
 
 :::details 查看解答

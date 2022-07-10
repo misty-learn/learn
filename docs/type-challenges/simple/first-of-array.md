@@ -48,7 +48,7 @@ type head2 = First<arr2> // expected to be 3
 * 在下方编写代码：
 
 
-<MonacoEditor :value="firstOfArray" filename="first-of-array"/>
+<MonacoEditor :value="firstOfArray" dir="simple" filename="first-of-array"/>
 
 
 :::details 查看解答

@@ -1,4 +1,5 @@
-import type { DefaultTheme } from 'vitepress/types/default-theme'
+// @ts-expect-error is not a valid tsconfig option
+import type { DefaultTheme } from 'vitepress'
 type NavItem = DefaultTheme.NavItem
 export default function nav(): NavItem[] {
   return [

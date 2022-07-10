@@ -34,6 +34,14 @@ export default function sidebar(): DefaultTheme.Sidebar {
             text: '数组中第一个元素',
             link: '/type-challenges/simple/first-of-array',
           },
+          {
+            text: '获取元祖长度',
+            link: '/type-challenges/simple/tuple-length',
+          },
+          {
+            text: '实现Exclude',
+            link: '/type-challenges/simple/exclude',
+          },
         ],
       },
       {
