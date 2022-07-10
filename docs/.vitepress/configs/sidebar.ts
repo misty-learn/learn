@@ -1,4 +1,5 @@
-import type { DefaultTheme } from 'vitepress/types/default-theme'
+// @ts-expect-error is not a valid tsconfig option
+import type { DefaultTheme } from 'vitepress'
 
 export default function sidebar(): DefaultTheme.Sidebar {
   return {
@@ -28,6 +29,10 @@ export default function sidebar(): DefaultTheme.Sidebar {
           {
             text: '元祖转对象',
             link: '/type-challenges/simple/tuple-to-object',
+          },
+          {
+            text: '数组中第一个元素',
+            link: '/type-challenges/simple/first-of-array',
           },
         ],
       },
