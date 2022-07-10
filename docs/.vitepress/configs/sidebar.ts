@@ -25,6 +25,10 @@ export default function sidebar(): DefaultTheme.Sidebar {
             text: '实现Readonly',
             link: '/type-challenges/simple/readonly',
           },
+          {
+            text: '元祖转对象',
+            link: '/type-challenges/simple/tuple-to-object',
+          },
         ],
       },
       {

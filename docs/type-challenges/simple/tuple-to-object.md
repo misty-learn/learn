@@ -21,7 +21,6 @@ type cases = [
   Expect<Equal<TupleToObject<typeof tupleMix>, { 1: 1; '2': '2'; 3: 3; '4': '4' }>>,
 ]
 
-// @ts-expect-error
 type error = TupleToObject<[[1, 2], {}]>
 
 ` 
@@ -41,6 +40,12 @@ const tuple = ['tesla', 'model 3', 'model X', 'model Y'] as const
 type result = TupleToObject<typeof tuple> // expected { tesla: 'tesla', 'model 3': 'model 3', 'model X': 'model X', 'model Y': 'model Y'}
 
 ```
+
+* 请在下方代码实现：
+
+<MonacoEditor :value="TupleToObject" filename="tuple-to-object"/>
+
+
 
 :::details 查看解答
 
