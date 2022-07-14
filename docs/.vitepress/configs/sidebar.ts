@@ -1,4 +1,3 @@
-// @ts-expect-error is not a valid tsconfig option
 import type { DefaultTheme } from 'vitepress'
 
 export default function sidebar(): DefaultTheme.Sidebar {
@@ -41,6 +40,10 @@ export default function sidebar(): DefaultTheme.Sidebar {
           {
             text: '实现Exclude',
             link: '/type-challenges/simple/exclude',
+          },
+          {
+            text: '实现Awaited',
+            link: '/type-challenges/simple/awaited',
           },
         ],
       },
