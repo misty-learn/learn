@@ -45,6 +45,10 @@ export default function sidebar(): DefaultTheme.Sidebar {
             text: '实现Awaited',
             link: '/type-challenges/simple/awaited',
           },
+          {
+            text: '实现If',
+            link: '/type-challenges/simple/if',
+          },
         ],
       },
       {
