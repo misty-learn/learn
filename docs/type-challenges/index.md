@@ -21,6 +21,7 @@ base项目地址 [type-challenges](https://github.com/type-challenges/type-chall
 7. [实现Awaited](/type-challenges/simple/awaited)
 8. [实现If](/type-challenges/simple/if)
 9. [实现Concat](/type-challenges/simple/concat)
+10. [实现Includes](/type-challenges/simple/includes)
 
 
 
