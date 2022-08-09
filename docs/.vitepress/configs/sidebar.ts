@@ -53,6 +53,10 @@ export default function sidebar(): DefaultTheme.Sidebar {
             text: '实现Concat',
             link: '/type-challenges/simple/concat',
           },
+          {
+            text: '实现Includes',
+            link: '/type-challenges/simple/includes',
+          },
         ],
       },
       {

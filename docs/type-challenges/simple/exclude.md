@@ -44,8 +44,7 @@ type Result = MyExclude<'a' | 'b' | 'c', 'a'> // 'b' | 'c'
 :::details 查看解答
 
 ```ts
-type MyExclude<T, U> = T extends U ? never : T 
-
+type MyExclude<T, U> = T extends U ? never : T
 ```
 
 :::
