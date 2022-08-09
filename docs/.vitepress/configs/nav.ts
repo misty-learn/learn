@@ -1,4 +1,3 @@
-// @ts-expect-error is not a valid tsconfig option
 import type { DefaultTheme } from 'vitepress'
 type NavItem = DefaultTheme.NavItem
 export default function nav(): NavItem[] {
@@ -10,6 +9,10 @@ export default function nav(): NavItem[] {
     {
       text: '类型',
       items: [
+        {
+          text: '基础学习',
+          link: '/typescript/',
+        },
         {
           text: '类型挑战',
           link: '/type-challenges/',
