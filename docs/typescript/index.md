@@ -39,17 +39,17 @@
 
 例子：
 ```ts
-const a: string = 'hello';
-const b: number = 1;
-const c: boolean = true;
-const d: undefined = undefined;
-const e: null = null;
-const f: object = {};
-const g: Function = () => {};
-const h: Array<number> = [1, 2, 3];
-const i: symbol = Symbol();
-const j: bigint = BigInt(991889888866688112);
-const k: bigint = 991889888866688112n;
+const a = 'hello'
+const b = 1
+const c = true
+const d = undefined
+const e = null
+const f: object = {}
+const g: Function = () => {}
+const h: Array<number> = [1, 2, 3]
+const i = Symbol('Test')
+const j = BigInt(991889888866688112n)
+const k = 991889888866688112n
 ```
 :::tip `null`和`undefined`区别
 
@@ -70,8 +70,8 @@ const k: bigint = 991889888866688112n;
 
 比如我们可以使用`void`来执行一个立即执行函数(IIFE)：
 ```ts
-void function iife(){
-    console.log('hello');
-}();
+void (function iife() {
+  console.log('hello')
+}())
 ```
 它会将我们的函数声明转换成一个，表达式：`void((function iife(){})())`

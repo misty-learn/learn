@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import Unocss from 'unocss/vite'
 import { presetAttributify, presetIcons, presetTypography, presetUno } from 'unocss'
+// import { SearchPlugin } from 'vitepress-plugin-search'
 
 export default defineConfig({
   build: {
@@ -18,11 +19,6 @@ export default defineConfig({
         preflightBase: false,
       },
     }),
+    // SearchPlugin({}),
   ],
-  // @ts-expect-error ts config
-  ssr: {
-    noExternal: [
-      'monaco-editor/esm/vs/editor/editor.api',
-    ],
-  },
 })
