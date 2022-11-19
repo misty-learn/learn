@@ -1,0 +1,18 @@
+name: deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-algolia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: caibingcheng/hugo-algolia2@v1
+        with:
+          input: "./docs/**"
+          output: "./algolia.json"
+          index: ${{ secrets.ALGOLIA_INDEX }}
+          apikey: ${{ secrets.ALGOLIA_APIKEY }}
+          appid: ${{ secrets.ALGOLIA_APPID }}

@@ -26,10 +26,10 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present Yanyu',
     },
-    // algolia: {
-    //   appId: '8J64VVRP8K',
-    //   apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-    //   indexName: 'vitepress',
-    // },
+    algolia: {
+      appId: 'A5ETFK6GX8',
+      apiKey: '424091d0670577ac07a12502c14a5c1a',
+      indexName: 'docs-search',
+    },
   },
 })
