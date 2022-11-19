@@ -1,0 +1,6 @@
+const header = require("./header")
+const content = require("./content")
+const  footer = require("./footer")
+header.addHeader()
+content.addContent()
+footer.addFooter()

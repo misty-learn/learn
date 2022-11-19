@@ -19,10 +19,5 @@ export default defineConfig({
       },
     }),
   ],
-  // @ts-expect-error ts config
-  ssr: {
-    noExternal: [
-      'monaco-editor/esm/vs/editor/editor.api',
-    ],
-  },
+  ssr: {},
 })

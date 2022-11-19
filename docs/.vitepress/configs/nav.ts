@@ -19,5 +19,106 @@ export default function nav(): NavItem[] {
         },
       ],
     },
+    {
+      text: '杂项',
+      items: [
+        {
+          text: 'git',
+          link: '/git/',
+        },
+        {
+          text: 'macbook',
+          link: '/mac/',
+        },
+      ],
+    },
+    {
+      text: '前端学习',
+      items: [
+        {
+          text: '基础知识',
+          items: [
+            {
+              text: 'CSS',
+              link: '/front/css/',
+            },
+            {
+              text: 'JS',
+              link: '/front/javascript/',
+            },
+          ],
+        },
+
+        {
+          text: 'webpack',
+          link: '/front/webpack/',
+        },
+        {
+          text: 'TypeScript',
+          link: '/front/typescript/',
+        },
+        {
+          text: 'vue2',
+          link: '/front/vue2/',
+        },
+        {
+          text: 'uni-app',
+          link: '/front/uniApp/',
+        },
+        {
+          text: 'react',
+          link: '/front/react/',
+        },
+      ],
+    },
+    {
+      text: '后端学习',
+      items: [
+        {
+          text: 'C语言',
+          link: '/after/c/',
+        },
+        {
+          text: 'PHP',
+          link: '/after/php/',
+        },
+        {
+          text: 'NodeJs',
+          link: '/after/node/',
+        },
+        {
+          text: 'Python',
+          link: '/after/python/',
+        },
+        {
+          text: '算法题目',
+          link: '/after/leetcode/',
+        },
+      ],
+    },
+    {
+      text: '数据库',
+      items: [{
+        text: 'Mysql',
+        link: '/sql/mysql/',
+      },
+      {
+        text: 'Oracle',
+        link: '/sql/orcale/',
+      },
+      {
+        text: 'nosql',
+        items: [{
+          text: 'redis',
+          link: '/sql/redis/',
+        },
+        {
+          text: 'mongoDB',
+          link: '/sql/mongodb/',
+        },
+        ],
+      },
+      ],
+    },
   ]
 }

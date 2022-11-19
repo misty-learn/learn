@@ -2,7 +2,7 @@
   "name": "learn",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs --port 7910",
     "docs:build": "vitepress build docs",
@@ -25,13 +25,13 @@
   "devDependencies": {
     "@mistjs/eslint-config-vue": "^0.0.2",
     "@mistjs/tsconfig-vue": "^0.0.2",
-    "eslint": "^8.19.0",
-    "typescript": "^4.7.4",
-    "unocss": "^0.39.3",
-    "vite": "^2.9.13",
-    "vitepress": "1.0.0-alpha.4",
-    "vue": "^3.2.37",
-    "@type-challenges/utils": "^0.1.1"
+    "@type-challenges/utils": "^0.1.1",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3",
+    "unocss": "^0.46.5",
+    "vite": "^3.2.4",
+    "vitepress": "1.0.0-alpha.29",
+    "vue": "^3.2.45"
   },
   "dependencies": {
     "monaco-editor": "^0.33.0"
