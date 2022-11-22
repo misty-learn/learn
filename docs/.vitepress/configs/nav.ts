@@ -7,6 +7,10 @@ export default function nav(): NavItem[] {
       link: '/',
     },
     {
+      text: '博客',
+      link: '/blog/',
+    },
+    {
       text: '类型',
       items: [
         {
