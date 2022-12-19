@@ -30,6 +30,8 @@ export default defineConfig({
       appId: 'A5ETFK6GX8',
       apiKey: '424091d0670577ac07a12502c14a5c1a',
       indexName: 'docs-search',
+      placeholder: '请输入搜索关键词',
+      buttonText: '搜索',
     },
   },
 })
