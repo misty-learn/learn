@@ -1,6 +1,6 @@
 {
   "index_name": "docs-search",
-  "start_urls": ["https://docs.28yanyu.cn/"],
+  "start_urls": ["https://docs.52yanyu.cn/"],
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {
