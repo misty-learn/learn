@@ -15,7 +15,7 @@ specifiers:
   vite: ^3.2.5
   vite-plugin-vitepress-demo: 2.0.0-alpha.7
   vitepress: 1.0.0-alpha.31
-  vitepress-dumi-theme: 0.0.1-beta.5
+  vitepress-dumi-theme: 0.0.1-alpha.1
   vue: ^3.2.45
 
 dependencies:
@@ -35,7 +35,7 @@ devDependencies:
   vite: 3.2.5
   vite-plugin-vitepress-demo: 2.0.0-alpha.7_i6afgrsv4jycr5zlvx34p7jsri
   vitepress: 1.0.0-alpha.31
-  vitepress-dumi-theme: 0.0.1-beta.5_vue@3.2.45
+  vitepress-dumi-theme: 0.0.1-alpha.1_vue@3.2.45
   vue: 3.2.45
 
 packages:
@@ -4217,8 +4217,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress-dumi-theme/0.0.1-beta.5_vue@3.2.45:
-    resolution: {integrity: sha512-oHM2xSUJc0LzifRQB1+eBqmm0NJgfKr5TyxKNT0rMk42J5B7hvO89ibffh79PfjZsilwX2ypcUcqwahOYdAopQ==}
+  /vitepress-dumi-theme/0.0.1-alpha.1_vue@3.2.45:
+    resolution: {integrity: sha512-LjxgIfk1zvlcy6LjuvhYVeeCLvuicW0xZcFhTEXjG1v7vOnkYHFWlYoLJnxJouaj8PmNGuCp2SWu73m7WAHfqA==}
     dependencies:
       '@docsearch/css': 3.3.1
       '@docsearch/js': 3.3.1

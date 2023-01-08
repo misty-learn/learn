@@ -27,5 +27,7 @@ export default defineConfig({
     }),
     // SearchPlugin({}),
   ],
-  ssr: {},
+  ssr: {
+    noExternal: ['vitepress-dumi-theme'],
+  },
 })
